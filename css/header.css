@@ -1,0 +1,86 @@
+.web {
+    color: #4D5AE5;
+}
+.main-title-header {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    color: inherit;
+    line-height: 1.33333;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding-bottom: 24px;
+    padding-top: 24px;
+    display: block;
+}
+.main-title-header:hover,
+.main-title-header:focus {
+    color: #404bbf;
+}
+.navi-list li a {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #2E2F42;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: inherit;
+}
+.navi-list li a:hover,
+.navi-list li a:focus {
+    color: #404bbf;
+}
+   
+.contact-list li a {
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    text-align: inherit;
+}
+.contact-list li a:hover,
+.contact-list li a:focus {
+    color: #404bbf;
+}
+
+.header-space {
+    border-bottom: 1px solid #e7e9fc;
+}
+.header-container {
+    display: flex;
+    align-items: baseline;
+}
+
+.navi-list {
+    margin-left: 76px;
+    margin-right: 340px;
+}
+.navi-list ul {
+    display: flex;
+    gap: 40px;
+}
+
+.navi-list-item {
+    padding-bottom: 24px;
+    padding-top: 24px;
+    display: block;
+}
+
+.contact-list ul {
+    display: flex;
+    gap: 40px;
+}
+
+.contact-list-item {
+    padding-bottom: 24px;
+    padding-top: 24px;
+    display: block;
+}
+.memder-information-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
