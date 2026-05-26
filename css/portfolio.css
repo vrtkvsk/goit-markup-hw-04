@@ -26,6 +26,35 @@
     flex-shrink: 0;
 }
 
+.overlay-box {
+    position: relative;
+    overflow: hidden;
+}
+
+.overlay-box:hover .overlay-text {
+    transform: translateY(0%);
+}
+
+.overlay-text {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #f4f4fd;
+    background-color: #4d5ae5;
+    display: block;
+    padding: 40px 32px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+
+    transform: translateY(100%);
+    transition: transform 200ms ease-in-out;
+}
+
 .portfolio-list-text-container {
     padding: 32px 16px;
     border-bottom: 1px solid #e7e9fc;

@@ -46,6 +46,7 @@
     text-align: center;
 
 }
+
 .team-member-role {
     font-weight: 400;
     font-size: 16px;
@@ -53,8 +54,26 @@
     letter-spacing: 0.02em;
     color: #434455;
     text-align: center;
+    margin-top: 8px;
+    margin-bottom: 8px;
 }
 
-.team-member-name {
-    margin-bottom: 8px;
+.team-sm-icons-list {
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+}
+
+.team-sm-icon-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    background-color: #4d5ae5;
+    border-radius: 40px;
+}
+
+.team-sm-icon {
+    fill: #fff;
 }
