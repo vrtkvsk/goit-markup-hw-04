@@ -69,8 +69,13 @@
     height: 40px;
     background-color: #4d5ae5;
     border-radius: 20px;
+    transition: background-color 250ms ease;
 }
 
 .footer-sm-icon {
-    fill: #fff;
+    fill: #f4f4fd;
+}
+
+.footer-icon-container:hover {
+    background-color: #31d0aa;
 }

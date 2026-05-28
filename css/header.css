@@ -60,6 +60,10 @@
     color: #404bbf;
 }
 
+.active-navi-link {
+    color: #404bbf;
+}
+
 .active-navi-link::after {
     content: "";
     position: absolute;
@@ -69,7 +73,6 @@
     border-radius: 2px;
     width: 100%;
     height: 4px;
-    color: #404bbf;
 }
 
 .contact-list-item {
