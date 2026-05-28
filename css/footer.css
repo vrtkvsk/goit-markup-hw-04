@@ -60,7 +60,7 @@
     gap: 16px;
 }
 
-.footer-icon-container {
+.footer-sm-link {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -76,7 +76,8 @@
     fill: #f4f4fd;
 }
 
-.footer-icon-container:hover,
-.footer-icon-container:focus {
+.footer-sm-link:hover,
+.footer-sm-link:focus {
     background-color: #31d0aa;
 }
+

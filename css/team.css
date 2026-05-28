@@ -91,9 +91,3 @@
 .team-sm-link:focus {
     background-color: #404bbf;
 }
-
-
-.team-sm-link:hover .team-sm-icon,
-.team-sm-link:focus .team-sm-icon{
-    fill: #f4f4fd;
-}
