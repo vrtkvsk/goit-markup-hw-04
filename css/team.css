@@ -2,6 +2,8 @@
     background-color: #f4f4fd;
     padding-top: 120px;
     padding-bottom: 120px;
+    max-width: 1440px;
+    margin: 0 auto;
 
 }
 .section-team-container {

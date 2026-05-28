@@ -1,5 +1,7 @@
 .section-portfolio {
     padding: 120px 141px;;
+    max-width: 1440px;
+    margin: 0 auto;
 }
 
 .portfolio-section-title {
@@ -31,7 +33,7 @@
     overflow: hidden;
 }
 
-.overlay-box:hover .overlay-text {
+.portfolio-list-item:hover .overlay-text {
     transform: translateY(0%);
 }
 
