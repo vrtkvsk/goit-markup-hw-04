@@ -68,6 +68,10 @@
 }
 
 .team-sm-icon-container {
+
+}
+
+.team-sm-link {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -83,13 +87,13 @@
     transition: fill 250ms ease;
 }
 
-.team-sm-icon-container:hover,
-.team-sm-icon-container:focus {
-    background-color: #f4f4fd;
+.team-sm-link:hover,
+.team-sm-link:focus {
+    background-color: #404bbf;
 }
 
 
-.team-sm-icon-container:hover .team-sm-icon,
-.team-sm-icon-container:focus .team-sm-icon{
-    fill: #4d5ae5;
+.team-sm-link:hover .team-sm-icon,
+.team-sm-link:focus .team-sm-icon{
+    fill: #f4f4fd;
 }

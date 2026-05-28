@@ -76,6 +76,7 @@
     fill: #f4f4fd;
 }
 
-.footer-icon-container:hover {
+.footer-icon-container:hover,
+.footer-icon-container:focus {
     background-color: #31d0aa;
 }
