@@ -84,7 +84,6 @@
 
 .team-sm-icon {
     fill: #f4f4fd;
-    transition: fill 250ms ease;
 }
 
 .team-sm-link:hover,
